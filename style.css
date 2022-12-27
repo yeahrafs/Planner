@@ -1,0 +1,225 @@
+body{
+    background-size: auto;
+
+    font-family: 'Sacramento', cursive;
+    
+}
+
+.ramo{
+    transform: rotate(340deg);
+}
+
+.cabecalho{
+    background: linear-gradient(rgba(255, 192, 203, 0.555), white);
+    font-size: 60px;
+    display: flex;
+    padding: 0.5em 30px;
+
+    
+}
+
+.week{
+    margin: 10px 50px;
+}
+
+.box {
+    position: absolute;
+    top: 5%;
+    right: 7%;
+
+  }
+  
+.box select {
+    cursor: pointer;
+    background-color: rgba(253, 130, 151, 0.712);
+    color: white;
+    padding: 15px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 20px;
+  }
+  
+.edit{
+    cursor: pointer;
+    margin: 0 20px 12px;
+    border: 2px solid #000000a1;
+    background-color: rgba(240, 128, 128, 0.37);
+    border-radius: 7px;
+}
+
+.edit:hover{
+    cursor: pointer;
+    margin: 0 15px;
+    padding: 10px;
+    border: 2px solid #000000a1;
+    background-color: rgb(233, 150, 122);
+    border-radius: 7px;
+}
+
+th, td {
+    border: 2px solid #000000a1;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    font-size: 30px;
+
+}
+table {
+    width: 9%;
+    margin: 3%;
+}
+
+.botao{
+    background: rgba(233, 150, 122, 0.527);
+    cursor: pointer;
+    margin: 10px 30px;
+    padding: 5px 25%;
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background: rgb(233, 150, 122);
+    cursor: pointer;
+    margin: 10px 20px;
+    padding: 10px 30%;
+    border-radius: 10px;
+}
+
+
+.rodape{
+    background: linear-gradient(white,rgba(255, 192, 203, 0.555));
+}
+
+.notas{
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+@media (max-width:900px){
+    body{
+        background-size: auto;
+
+    }
+    .cabecalho{
+        font-size: 40px;
+    }
+    .box {
+        position: flex;
+        top: 5%;
+      }
+
+    textarea{
+        rows="20";
+    }
+      
+    .box select {
+        cursor: pointer;
+        background-color: rgba(253, 130, 151, 0.712);
+        color: white;
+        padding: 15px;
+        width: 180px;
+        border: none;
+        font-size: 15px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+        -webkit-appearance: button;
+        appearance: button;
+        outline: none;
+        border-radius: 20px;
+      }
+
+      .edit{
+        cursor: pointer;
+        margin: 10px 20px 20px;
+        border: 2px solid #000000a1;
+        background-color: rgba(240, 128, 128, 0.37);
+        border-radius: 7px;
+    }
+    
+    .edit:hover{
+        cursor: pointer;
+        margin: 10px 20px 20px;
+        padding: 10px;
+        border: 2px solid #000000a1;
+        background-color: rgb(233, 150, 122);
+        border-radius: 7px;
+    }
+
+      th, td {
+       
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        height: calc(1.2em * 11);
+        width: calc(1.2em * 19.5);;
+    
+    }
+
+    table {
+        
+        width: 5%;
+        margin: 3%;
+    }
+    
+      
+}
+
+@media (max-width:600px){
+    body{
+        background-size: auto;
+
+    }
+    .cabecalho{
+        
+        font-size: 40px;
+    }
+
+    .week{
+        margin: 25px 105px;
+    }
+
+    .box {
+        position: relative;
+        margin: 0 32%;
+      }
+
+      
+    .box select {
+        cursor: pointer;
+        background-color: rgba(253, 130, 151, 0.712);
+        color: white;
+        padding: 10px;
+        width: 170px;
+        border: none;
+        font-size: 15px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+        -webkit-appearance: button;
+        appearance: button;
+        outline: none;
+        border-radius: 20px;
+      }
+
+      th, td {
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        height: calc(1.2em * 11);
+        width: calc(1.2em * 8);
+    
+    }
+
+
+
+    table {
+        
+        width: 5%;
+        margin: 3%;
+    }
+    
+      
+}
